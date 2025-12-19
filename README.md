@@ -26,16 +26,4 @@ LDA gives a maximum of 98.67% accuracy and Decision Trees gives a maximum of 100
 
 The effect of each attribute on the result of the model in each case is shown in the graphs.
 
-# Architecture
 
-This project is made using flask for the web app. The model is exported and added to the flask. The code for the flask app is in the `src/` directory. The flask app exports an API endpoint at the `/` (root).
-
-It listens to the `GET` and `POST` requests at the `\` and serves the HTML template at the root on the `GET` request and calculates and serves the result of the prediction at the `POST` request. The format of data acceptance in the `POST` request is `application/x-www-form-urlencoded`.
-
-# Hosting
-
-The current version of the App can be found at: https://sahilgarg.pythonanywhere.com/. If you find any bug or any issue, please make an issue on github or send a message at: me.sahil.gg@gmail.com. Thanks!
-
-# Contribution
-
-This project is licensed under the MIT license and is open to any code contributions. Just make a PR :)
