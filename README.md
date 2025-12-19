@@ -25,5 +25,14 @@ The dataset being used is sourced from kaggle. The dataset can be found at: http
 LDA gives a maximum of 98.67% accuracy and Decision Trees gives a maximum of 100% accuracy for the current dataset.
 
 The effect of each attribute on the result of the model in each case is shown in the graphs.
+# Real-World Use & Impact
+
+This project was built to explore how lifestyle and health-related data can be used to analyze and predict sleep quality using simple machine learning techniques.
+
+By analyzing factors such as sleep duration, stress level, physical activity, and heart rate, the model helps identify patterns that influence sleep quality. This can assist users in understanding how daily habits impact their sleep and encourage informed lifestyle changes.
+
+I chose this problem because sleep quality is a common issue among students, and I wanted to apply data-driven methods to a real-life health problem.
+
+With further development, this system could be extended into a web or mobile application, integrated with wearable device data, or enhanced with visual analytics to track sleep trends over time.
 
 
